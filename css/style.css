@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&subset=latin-ext');
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+header .fullscreen-hero {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: #444;
+}
+
+header .fullscreen-hero .hero-container {
+    display: table;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header .fullscreen-hero .hero-container .hero-content {
+    display: table-cell;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFF;
+}
+
+header .fullscreen-hero .hero-container .hero-content .more {
+    bottom: 2.5%;
+    display: inline-block;
+    left: 50%;
+    padding: 20px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+header .fullscreen-hero .hero-container .hero-content .more a {
+    color: #FFF;
+}
